@@ -4,7 +4,10 @@
     "joined": "joined",
     "error": "error",
     "disconnect": "disconnect",
+    "touchlineEvent":"touchlineEvent",
     "candleDataEvent": "candleDataEvent",
+    "ltpEvent": "ltpEvent",
+    "exchangeTradingStatus": "exchangeTradingStatus",
     "marketDepth100Event": "marketDepth100Event",
     "openInterestEvent": "openInterestEvent",
     "marketDepthEvent": "marketDepthEvent",
@@ -39,6 +42,7 @@
       "MSEICD": 43
     },
     "marketDataPorts": {
+      "touchlineEvent":1501,
       "marketDepthEvent": 1502,
       "indexDataEvent": 1504,
       "candleDataEvent": 1505,
@@ -108,7 +112,6 @@
       "AuctionSettlementPeriod": 60,
       "FiftyTwoWeekHigh": 61,
       "FiftyTwoWeekLow": 62,
-
       "OptionType": 81,
       "AssetToken": 82,
       "Category": 83,
@@ -141,7 +144,6 @@
       "HighExecBand": 110,
       "LowExecBand": 111,
       "InstrumentUpdateTime": 112,
-
       "Multiplier": 131
     }
   }
